@@ -15,8 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * Manage excel files (read and write)
  *
- * @author [@ribeiv] Victor Ribeiro
- * Company: Amazon
+ * @author Victor Ribeiro
  *
  */
 public class ExcelFileManager {
@@ -27,8 +26,7 @@ public class ExcelFileManager {
 	 * Print file data array on the console
 	 * @param fileData
 	 *
-	 * @author [@ribeiv] Victor Ribeiro
-	 * Company: Amazon
+	 * @author Victor Ribeiro
 	 *
 	 */
 	public void printFileData(ArrayList<ArrayList<ArrayList<String>>> fileData) {
@@ -51,8 +49,7 @@ public class ExcelFileManager {
 	 *         inside to outside) are the rows and the second are the sheets
 	 * @throws IOException
 	 *
-	 * @author [@ribeiv] Victor Ribeiro
-	 * Company: Amazon
+	 * @author Victor Ribeiro
 	 *
 	 */
 	public ArrayList<ArrayList<ArrayList<String>>> readXLSXFile(String filePath,
@@ -133,8 +130,7 @@ public class ExcelFileManager {
 	 * @param sheetValuesMatrix
 	 * @throws IOException
 	 *
-	 * @author [@ribeiv] Victor Ribeiro
-	 * Company: Amazon
+	 * @author Victor Ribeiro
 	 *
 	 */
 	public void writeXLSXFile(String filePath, String sheetName, String[][] sheetValuesMatrix)

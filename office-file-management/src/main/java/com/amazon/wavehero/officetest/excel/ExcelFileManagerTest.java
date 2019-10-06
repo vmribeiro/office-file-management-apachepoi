@@ -3,6 +3,13 @@ package com.amazon.wavehero.officetest.excel;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * 
+ * Test class
+ *
+ * @author Victor Ribeiro
+ *
+ */
 public class ExcelFileManagerTest {
 	public static void main(String[] args) throws IOException {
 
